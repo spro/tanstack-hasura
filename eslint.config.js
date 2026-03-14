@@ -14,7 +14,6 @@ export default tseslint.config(
             "dist/**",
             "dist-ssr/**",
             "node_modules/**",
-            "create-tanstack-hasura/template/**",
             "src/routeTree.gen.ts",
         ],
     },

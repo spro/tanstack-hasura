@@ -1,7 +1,6 @@
 {
     "include": ["**/*.ts", "**/*.tsx"],
     "exclude": [
-        "create-tanstack-hasura/template",
         ".output",
         ".tanstack",
         ".nitro",

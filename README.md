@@ -153,25 +153,41 @@ curl http://localhost:8080/v1/graphql \
   -d '{"query":"query Posts { posts(order_by: { created_at: desc }) { id title author_name published created_at } }"}'
 ```
 
-## Reusing this starter
+## Reusing this template
 
-The current naming is:
+This repository is intended to be the template itself.
+
+Current canonical location:
 
 - GitHub repo: `spro/tanstack-hasura`
-- scaffold package directory: `create-tanstack-hasura`
-- npm package name: `@spro/create-tanstack-hasura`
-- create command: `npm create @spro/tanstack-hasura`
 
-Local usage:
+Recommended ways to start a new project from it:
+
+### GitHub template
+
+Use GitHub's **Use this template** button on the repository.
+
+### Clone manually
 
 ```bash
-node create-tanstack-hasura/index.mjs my-app
+git clone https://github.com/spro/tanstack-hasura.git my-app
+cd my-app
+rm -rf .git
+npm install
+cp .env.example .env
+npm run hasura:up
+npm run dev
 ```
 
-After publishing `@spro/create-tanstack-hasura` to npm, users will be able to run:
+### Using degit
 
 ```bash
-npm create @spro/tanstack-hasura my-app
+npx degit spro/tanstack-hasura my-app
+cd my-app
+npm install
+cp .env.example .env
+npm run hasura:up
+npm run dev
 ```
 
 ## Documentation

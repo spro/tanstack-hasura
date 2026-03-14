@@ -1,7 +1,0 @@
-node_modules
-.output
-.tanstack
-.nitro
-dist
-dist-ssr
-package-lock.json
