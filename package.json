@@ -1,5 +1,5 @@
 {
-    "name": "microblog-hasura",
+    "name": "tanstack-hasura",
     "private": true,
     "type": "module",
     "imports": {

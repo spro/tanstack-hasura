@@ -26,7 +26,13 @@ npm run dev
 
 ## Publishing
 
-To support:
+The naming is:
+
+- GitHub repo: `spro/tanstack-hasura`
+- npm package: `@spro/create-tanstack-hasura`
+- create command: `npm create @spro/tanstack-hasura`
+
+So to support:
 
 ```bash
 npm create @spro/tanstack-hasura my-app
@@ -35,5 +41,3 @@ npm create @spro/tanstack-hasura my-app
 publish this package to npm with the name:
 
 - `@spro/create-tanstack-hasura`
-
-That is the package npm resolves for `npm create @spro/tanstack-hasura`.

@@ -8,7 +8,7 @@ export default function Header() {
                     to="/"
                     className="text-base font-semibold text-slate-900 no-underline"
                 >
-                    microblog-hasura
+                    tanstack-hasura
                 </Link>
 
                 <div className="flex items-center gap-4 text-sm">

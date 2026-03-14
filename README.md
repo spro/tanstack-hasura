@@ -1,4 +1,4 @@
-# microblog-hasura
+# tanstack-hasura
 
 TanStack Start frontend with a local Hasura + Postgres stack for development.
 
@@ -155,13 +155,12 @@ curl http://localhost:8080/v1/graphql \
 
 ## Reusing this starter
 
-This repo now includes a scaffold package at:
+The current naming is:
 
-- `create-tanstack-hasura`
-
-Current repo path:
-
-- `spro/tanstack-hasura`
+- GitHub repo: `spro/tanstack-hasura`
+- scaffold package directory: `create-tanstack-hasura`
+- npm package name: `@spro/create-tanstack-hasura`
+- create command: `npm create @spro/tanstack-hasura`
 
 Local usage:
 
@@ -169,7 +168,7 @@ Local usage:
 node create-tanstack-hasura/index.mjs my-app
 ```
 
-If you publish that package to npm as `@spro/create-tanstack-hasura`, you will be able to run:
+After publishing `@spro/create-tanstack-hasura` to npm, users will be able to run:
 
 ```bash
 npm create @spro/tanstack-hasura my-app

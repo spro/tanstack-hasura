@@ -1,5 +1,5 @@
 {
-    "projectName": "microblog-hasura",
+    "projectName": "tanstack-hasura",
     "mode": "file-router",
     "typescript": true,
     "packageManager": "npm",
